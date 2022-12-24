@@ -1,0 +1,153 @@
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+h1, h2, h3, h4{
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+
+
+/* header */
+
+
+.contakt-link:hover {
+    color: #2196F3;
+}
+
+.header-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+
+    transition: color 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67) 30ms,
+    background-color 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67) 50ms;
+}
+
+.header-link:hover {
+    color: #2196F3;
+}
+
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+   
+
+}
+
+.header .container{
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+.header-logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.contakt-list {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+   
+}
+
+.contakt-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    margin-left: 32px;
+    color: #757575;
+    transition: color 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67) 30ms,
+    background-color 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67) 50ms;
+}
+
+
+.header-color {
+    color: #000000;
+}
+
+.header-item{
+    transition: color 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67) 30ms,
+    background-color 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67) 50ms;
+    margin-left: 55px;
+}
+
+.header-list{
+    display: flex;
+    margin-left: 93px;
+}
+
+
+
+/* main */
+
+
+
+/* <!--footer --> */
+.footer-logo{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+
+color: #2196F3;
+
+}
+.address{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+
+}
+.footer-link{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+
+}
+.section-footer{
+    background: #2F303A;
+}
+.eader-color:hover{
+    background: #2F303A;
+}

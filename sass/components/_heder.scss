@@ -1,0 +1,147 @@
+/* header */
+
+
+
+.contakt-svg{
+    width: 10px;
+    height: 16px;
+    fill: currentColor;
+    margin-right: 10px;
+      
+    }
+    
+    .contakt-svg:hover {
+        color: #2196F3;
+    }
+    
+    .header .container{
+        display: flex;
+        height: 80px;
+        align-items: center;
+
+
+        @media screen and(min-width:480px) {
+          .header__btn{
+            margin-left: auto;
+            color: #ffffff;
+            background-color: #ffffff;
+            background: #ffffff;
+            border-radius: solid 1px;
+            width: 40px;
+            height: 40px;
+           
+          }
+          .header__icon{
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+          }
+          .header__icon-menu{
+            width: 20px;
+          }
+          .header__icon-cross{
+            display: none;
+          }
+          .header-list{
+          display: none;
+          }
+          .contakt-list{
+            display: none;
+          }
+        }
+    
+        @media screen and(min-width:768px) {
+            .header__btn{
+                width: 26px;
+            height: 26px;
+            display: none;
+              }
+              .header-list{
+               display: flex;
+              }
+              .contakt-list{
+              display: block;
+              }
+        }
+    .contakt-list{
+        display: flex;
+    }
+       
+
+
+    }
+
+   
+    
+    .header-colorr{
+        color: #212121;
+    }
+    
+    .header-logo {
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+        color: #2196F3;
+    }
+    
+    .header-item{
+        margin-left: 55px;
+    }
+    
+    .header-list{
+        display: flex;
+        margin-left: 93px;
+    }
+    
+    .header-color {
+        color: #ffffff;
+    }
+    
+    .header-link {
+      
+      
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: #212121;
+        transition: color 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67) 30ms,
+        background-color 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67) 50ms;
+    }
+    
+    .header-link:hover {
+        color: #2196F3;
+    }
+    
+    .contakt-list {
+        list-style: none;
+        display: flex;
+        margin-left: auto;
+       
+    }
+    
+    .contakt-link {
+        align-items: center;
+        display: flex;
+       
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        margin-left: 32px;
+        color: #757575;
+        transition: color 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67) 30ms,
+        background-color 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67) 50ms;
+    }
+    
+    .contakt-link:hover {
+        color: #2196F3;
+    }
+
+
+
+
+
+   

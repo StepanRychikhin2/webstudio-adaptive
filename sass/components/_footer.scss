@@ -1,0 +1,231 @@
+/* <!--footer --> */
+.footer-logo {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #2196F3;
+
+}
+
+
+
+
+.div-button {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    background-color: #0037ff;
+}
+
+
+
+.footer-comit {
+
+    background-color: #2F303A;
+    color: #2F303A;
+    width: 358px;
+    height: 50px;
+}
+
+.footer-p {
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+
+
+footer .container {
+    display: flex;
+}
+
+.footer-informeuhon {
+    border: 2px solid #2196F3;
+}
+
+.footer-sosial {
+    border: 2px solid red;
+}
+
+.footer-title {
+    color: #FFFFFF;
+    margin-top: 60px;
+    margin-left: 100px;
+
+    font-weight: 700;
+}
+
+.footer-ul {
+    display: flex;
+
+    margin-left: 80px;
+
+}
+
+.footer-li {
+    border-radius: 70%;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+.footer-li:hover {
+    fill: rgb(127, 178, 255);
+    background-color: #2196F3;
+    width: 20px;
+    border-radius: 100%;
+}
+
+.address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.footer-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-from{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.section-footer {
+    display: flex;
+    background: #2F303A;
+
+    @media screen and(min-width:480px) {
+
+        .div-button {
+            background: #2196F3;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            border-radius: 4px;
+            padding-left: 29px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.06em;
+            color: #FFFFFF;
+        }
+
+        .footer-logo {
+            font-family: 'Raleway';
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+            text-align: center;
+            letter-spacing: 0.03em;
+        }
+
+        .footer-informeuhon {
+            margin-left: 80px;
+
+        }
+
+        .footer-title {
+            margin-top: 30px;
+            font-family: 'Roboto';
+
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: center;
+            letter-spacing: 0.03em;
+            padding-bottom: 20px;
+            color: #FFFFFF;
+        }
+
+        .section-footer {
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .footer-sosial {
+            margin-bottom: 70px;
+            justify-content: center;
+            display: block;
+        }
+
+      
+
+
+    }
+
+    @media screen and(min-width:768px) {
+
+        .comit-svg {
+
+            width: 50px;
+            height: 50px;
+            color: #FFFFFF;
+
+        }
+
+        .div-button {
+            background: #2196F3;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            border-radius: 4px;
+            padding-left: 29px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.06em;
+            color: #FFFFFF;
+        }
+
+        .footer-comit {
+            color: #FFFFFF;
+        }
+
+        .footer-informeuhon {
+            display: block;
+            margin-bottom: 60px;
+            width: 231px;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .footer-logo {
+            width: 145px;
+            height: 31px;
+        }
+
+        .footer-title {
+            width: 116;
+            height: 16px;
+        }
+    }
+
+    @media screen and(min-width:1200px) {
+        .footer-div {
+            margin-left: 93px;
+        }
+    }
+
+    .footer-sosial {
+        margin-top: 60px;
+    }
+
+
+}

@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WebStudio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
+  <link rel="stylesheet" href="./sass/main.css" />
+</head> 
+
+<body>
+  <!--header -->
+  <header class="header">
+    
+
+    <div class="container">
+      <a href="./index.html" class="header-logo">Web<span class="header-colorr">Studio</span></a>
+
+      <button data-menu-button class="header__btn" type="button">
+        <svg class="header__icon">
+            <use class="header__icon-menu" data-open-modall  href="./imeges/sprite.svg#menu"></use>
+           
+        </svg>
+        </button>
+    
+      <ul class="header-list">
+        <li class="header-item"><a href="/" class="header-link">Студія</a></li>
+        <li class="header-item"><a href="./portholio.html" class="header-link">Портфоліо</a></li>
+        <li class="header-item"><a href="Контакти" class="header-link">Контакти</a></li>
+      </ul>
+
+
+      <ul class="contakt-list">
+        <li class="contakt-item">
+
+          <a href="mailto:info@devstudio.com" class="contakt-link">
+            <svg class="contakt-svg" width="16" height="12" >
+            <use href="./imeges/symbol-defs.svg#icon-mail">
+
+            </use>
+            </svg>
+            <span> info@devstudio.com</span>
+          </a>
+        </li>
+        <li class="contakt-item">
+
+          <a href="tel:+380961111111" class="contakt-link">
+            <svg class="contakt-svg" width="10" height="16" >
+           <use href="./imeges/symbol-defs.svg#icon-tel">
+
+           </use>
+            </svg>
+            <span> +38 096 111 11 11</span>
+          </a>
+        </li> 
+      </ul>
+    </div>
+    
+  </header>
+  <main>
+    <!--секція герой -->
+    <section class="hero-section">
+      <h1 class="hero-title">ефективні рішення для вашого бізнесу</h1>
+      <button data-open-modal class="hero-button">Замовити послугу</button>
+    </section>
+
+    <!--Чому ми -->
+    <section class="attention-section">
+      <div class="container">
+        <ul class="attention-list">
+          <li class="attention-item">
+ 
+            <h2 class="attention-title">УВАГА ДО ДЕТАЛЕЙ</h2>
+            <p class="attention-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
+              veritatis exercitationem velit magnam iure.
+            </p>
+          </li>
+          <li class="attention-item">
+
+            <h2 class="attention-title">ПунктуальнІсть</h2>
+            <p class="attention-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
+              veritatis exercitationem velit magnam iure.
+            </p>
+          </li>
+          <li class="attention-item">
+
+            <h2 class="attention-title">ПЛАНУВАННЯ</h2>
+            <p class="attention-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
+              veritatis exercitationem velit magnam iure.
+            </p>
+          </li>
+          <li class="attention-item">
+
+            <h2 class="attention-title">СУЧАСНІ технології</h2>
+            <p class="attention-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
+              veritatis exercitationem velit magnam iure.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- чим ми займайемося -->
+    <section class="work-section">
+      <div class="container">
+        <h2 class="work-title">Чим ми займаємося</h2>
+        <ul class="work-list">
+          <li class="work-item">
+            <img class="work-img" src="./imeges/hacker1.jpg" alt="пк" width="200" />
+            <p class="work-text">ДЕСКТОПНІ ЗАСТОСУНКИ</p>
+          </li>
+          <li class="work-item">
+            <img class="work-img" src="./imeges/hacker2.jpg" alt="телефон" width="200" />
+            <p class="work-text">МОБІЛЬНІ ЗАСТОСУНКИ</p>
+          </li>
+          <li class="work-item">
+            <img class="work-img" src="./imeges/hacker3.jpg" alt="планшет" width="200" />
+            <p class="work-text">ДИЗАЙНЕРСЬКІ РІШЕННЯ</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- наша команда -->
+    <section class="team-section">
+      <div class="container">
+        <h2 class="team-title">Наша команда</h2>
+        <ul class="team-list">
+          <li class="team-item">
+            <picture>
+              <source media="(max-width: 767px)" srcset="./imeges/studio/team1-mobile@1x.jpg, ./imeges/studio/team1-mobile@2x.jpg">
+              <source media="(min-width: 1200px)" srcset="./imeges/studio/team1-desktop@1x.jpg, ./imeges/studio/team1-desktop@2x.jpg">
+              <source media="(min-width: 768px)" srcset="./imeges/studio/team1-tablet@1x.jpg, ./imeges/studio/team1-tablet@2x.jpg">
+            <img class="team-img" src="./imeges/studio/team1-tablet@1x.jpg" alt="людина" width="200" />
+          </picture>
+            <p class="team-name">Ігор Дем’яненко</p>
+            <p class="team-text">Product Designer</p>
+            <ul class="social-list">
+              <li class="social-item">
+                <svg class="team-svg" width="20" height="20">
+                 <use href="./imeges/symbol-defs.svg#icon-instagram">
+
+                 </use>
+                </svg>
+              </li>
+              <li class="social-item">
+
+                <svg class="team-svg" width="20" height="20" >
+              <use href="./imeges/symbol-defs.svg#icon-twitter">
+
+              </use>
+                </svg>
+              </li>
+              <li class="social-item">
+                <svg class="team-svg" width="20" height="20" >
+                  <use href="./imeges/symbol-defs.svg#icon-facebook">
+
+                  </use>
+                </svg>
+              </li>
+              <li class="social-item">
+                <svg class="team-svg" width="20" height="20">
+              <use href="./imeges/symbol-defs.svg#icon-linkedin">
+
+              </use>
+                </svg>
+              </li>
+            </ul>
+
+          </li>
+
+          <li class="team-item">
+            <img class="team-img" src="./imeges/worker2.jpg" alt="людина" width="200" />
+            <p class="team-name">Ольга Репіна</p>
+            <p class="team-text">Frontend Developer</p>
+
+            <ul class="social-list">
+              <li class="social-item">
+                <svg class="team-svg" width="20" height="20">
+                 <use href="./imeges/symbol-defs.svg#icon-instagram">
+
+                 </use>
+                </svg>
+              </li>
+              <li class="social-item">
+
+                <svg class="team-svg" width="20" height="20" >
+              <use href="./imeges/symbol-defs.svg#icon-twitter">
+
+              </use>
+                </svg>
+              </li>
+              <li class="social-item">
+                <svg class="team-svg" width="20" height="20" >
+                  <use href="./imeges/symbol-defs.svg#icon-facebook">
+
+                  </use>
+                </svg>
+              </li>
+              <li class="social-item">
+                <svg class="team-svg" width="20" height="20">
+              <use href="./imeges/symbol-defs.svg#icon-linkedin">
+
+              </use>
+                </svg>
+              </li>
+            </ul>
+
+           
+          </li>
+
+          <li class="team-item">
+            <img class="team-img" src="./imeges/worker3.jpg" alt="людина" width="200" />
+            <p class="team-name">Микола Тарасов</p>
+            <p class="team-text">Marketing</p>
+
+            <ul class="social-list">
+              <li class="social-item">
+                <svg class="team-svg" width="20" height="20">
+                 <use href="./imeges/symbol-defs.svg#icon-instagram">
+
+                 </use>
+                </svg>
+              </li>
+              <li class="social-item">
+
+                <svg class="team-svg" width="20" height="20" >
+              <use href="./imeges/symbol-defs.svg#icon-twitter">
+
+              </use>
+                </svg>
+              </li>
+              <li class="social-item">
+                <svg class="team-svg" width="20" height="20" >
+                  <use href="./imeges/symbol-defs.svg#icon-facebook">
+
+                  </use>
+                </svg>
+              </li>
+              <li class="social-item">
+                <svg class="team-svg" width="20" height="20">
+              <use href="./imeges/symbol-defs.svg#icon-linkedin">
+
+              </use>
+                </svg>
+              </li>
+            </ul>
+
+          
+          </li>
+
+          <li class="team-item">
+            <img class="team-img" src="./imeges/worker4.jpg" alt="людина" width="200" />
+            <p class="team-name">Михайло Єрмаков</p>
+            <p class="team-text">UI Designer</p>
+
+            <ul class="social-list">
+              <li class="social-item">
+                <svg class="team-svg" width="20" height="20">
+                 <use href="./imeges/symbol-defs.svg#icon-instagram">
+
+                 </use>
+                </svg>
+              </li>
+              <li class="social-item">
+
+                <svg class="team-svg" width="20" height="20" >
+              <use href="./imeges/symbol-defs.svg#icon-twitter">
+
+              </use>
+                </svg>
+              </li>
+              <li class="social-item">
+                <svg class="team-svg" width="20" height="20" >
+                  <use href="./imeges/symbol-defs.svg#icon-facebook">
+
+                  </use>
+                </svg>
+              </li>
+              <li class="social-item">
+                <svg class="team-svg" width="20" height="20">
+              <use href="./imeges/symbol-defs.svg#icon-linkedin">
+
+              </use>
+                </svg>
+              </li>
+            </ul>
+
+           
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- Постійні клієнти -->
+    <section class="section-Client">
+      <h2 class="ligo-Client">Постійні клієнти</h2>
+      <ul class="link-ul">
+        <li class="link-Client">
+         <svg class="Client-svg">
+          <use href="./imeges/symbol-defs.svg#icon-logo1">
+
+          </use>
+         </svg>
+        </li>
+        <li class="link-Client">
+          <svg class="Client-svg">
+            <use href="./imeges/symbol-defs.svg#icon-logo2">
+  
+            </use>
+           </svg>
+
+        </li>
+        <li class="link-Client">
+          <svg class="Client-svg">
+            <use href="./imeges/symbol-defs.svg#icon-logo3">
+  
+            </use>
+           </svg>
+
+
+        </li>
+        <li class="link-Client">
+
+          <svg class="Client-svg">
+            <use href="./imeges/symbol-defs.svg#icon-logo4">
+  
+            </use>
+           </svg>
+
+        </li>
+        <li class="link-Client">
+          <svg class="Client-svg">
+            <use href="./imeges/symbol-defs.svg#icon-logo5">
+  
+            </use>
+           </svg>
+
+
+        </li>
+        <li class="link-Client">
+          <svg class="Client-svg">
+            <use href="./imeges/symbol-defs.svg#icon-logo5">
+  
+            </use>
+           </svg>
+
+
+        </li>
+      </ul>
+    </section>
+  </main>
+  <!--footer -->
+   <footer class="section-footer">
+
+    <div class="container">
+      <div class="footer-informeuhon">
+        <h2 class="footer-logo">Web<span class="header-color">Studio</span></h2>
+        <address class="address">м. Київ, пр-т Лесі Українки, 26</address>
+        <ul class="footer-list">
+
+          <li class="footer-item">
+            <a class="footer-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="footer-item">
+            <a class="footer-link" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-sosial">
+        <h2 class="footer-title">Приєднуйтесь</h2>
+        <ul class="footer-ul">
+
+
+
+          <li class="footer-li">
+            <svg class="footer-svg" width="20" height="20" viewBox="0 0 20 20" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_68394_172)">
+                <path
+                  d="M19.9804 5.88005C19.9336 4.81738 19.7617 4.0868 19.5156 3.45374C19.2616 2.78176 18.8709 2.18014 18.359 1.68002C17.8589 1.1721 17.2533 0.777435 16.5891 0.527447C15.9524 0.281274 15.2256 0.109427 14.163 0.0625732C13.0924 0.0117516 12.7525 0 10.0371 0C7.32173 0 6.98185 0.0117516 5.91521 0.0586052C4.85253 0.105459 4.12195 0.277459 3.48904 0.523479C2.81692 0.777435 2.2153 1.16814 1.71517 1.68002C1.20726 2.18014 0.812743 2.78573 0.562603 3.44992C0.31643 4.0868 0.144583 4.81341 0.0977294 5.87609C0.0469078 6.9467 0.0351562 7.28658 0.0351562 10.002C0.0351562 12.7173 0.0469078 13.0572 0.0937614 14.1239C0.140615 15.1865 0.312615 15.9171 0.558787 16.5502C0.812743 17.2221 1.20726 17.8238 1.71517 18.3239C2.2153 18.8318 2.82088 19.2265 3.48508 19.4765C4.12195 19.7226 4.84856 19.8945 5.91139 19.9413C6.97788 19.9883 7.31791 19.9999 10.0333 19.9999C12.7487 19.9999 13.0885 19.9883 14.1552 19.9413C15.2179 19.8945 15.9484 19.7226 16.5813 19.4765C17.9254 18.9568 18.9881 17.8941 19.5078 16.5502C19.7538 15.9133 19.9258 15.1865 19.9727 14.1239C20.0195 13.0572 20.0313 12.7173 20.0313 10.002C20.0313 7.28658 20.0273 6.9467 19.9804 5.88005ZM18.1794 14.0457C18.1364 15.0225 17.9723 15.5499 17.8356 15.9015C17.4995 16.7728 16.808 17.4643 15.9367 17.8004C15.5851 17.9372 15.0538 18.1012 14.0809 18.1441C13.026 18.1911 12.7096 18.2027 10.0411 18.2027C7.37255 18.2027 7.05221 18.1911 6.00113 18.1441C5.02438 18.1012 4.49693 17.9372 4.1453 17.8004C3.71171 17.6402 3.31704 17.3862 2.9967 17.0541C2.6646 16.7298 2.41065 16.3391 2.2504 15.9055C2.11365 15.5539 1.94959 15.0225 1.90671 14.0497C1.8597 12.9948 1.8481 12.6783 1.8481 10.0097C1.8481 7.34122 1.8597 7.02087 1.90671 5.96995C1.94959 4.99319 2.11365 4.46575 2.2504 4.11412C2.41065 3.68038 2.6646 3.28586 3.00067 2.96536C3.32483 2.63327 3.71553 2.37931 4.14927 2.21921C4.5009 2.08247 5.03231 1.9184 6.0051 1.87537C7.05999 1.82851 7.37652 1.81676 10.0449 1.81676C12.7174 1.81676 13.0337 1.82851 14.0848 1.87537C15.0616 1.9184 15.589 2.08247 15.9407 2.21921C16.3742 2.37931 16.7689 2.63327 17.0893 2.96536C17.4213 3.28967 17.6753 3.68038 17.8356 4.11412C17.9723 4.46575 18.1364 4.99701 18.1794 5.96995C18.2263 7.02484 18.238 7.34122 18.238 10.0097C18.238 12.6783 18.2263 12.9908 18.1794 14.0457Z"
+                  fill="white" />
+                <path
+                  d="M10.0371 4.86426C7.20068 4.86426 4.89935 7.16543 4.89935 10.002C4.89935 12.8385 7.20068 15.1397 10.0371 15.1397C12.8736 15.1397 15.1748 12.8385 15.1748 10.002C15.1748 7.16543 12.8736 4.86426 10.0371 4.86426ZM10.0371 13.3347C8.19696 13.3347 6.70436 11.8422 6.70436 10.002C6.70436 8.16172 8.19696 6.66927 10.0371 6.66927C11.8773 6.66927 13.3698 8.16172 13.3698 10.002C13.3698 11.8422 11.8773 13.3347 10.0371 13.3347Z"
+                  fill="white" />
+                <path
+                  d="M16.5775 4.6611C16.5775 5.32346 16.0405 5.86052 15.378 5.86052C14.7156 5.86052 14.1785 5.32346 14.1785 4.6611C14.1785 3.99858 14.7156 3.46167 15.378 3.46167C16.0405 3.46167 16.5775 3.99858 16.5775 4.6611Z"
+                  fill="white" />
+              </g>
+              <defs>
+                <clipPath id="clip0_68394_172">
+                  <rect width="20" height="20" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </li>
+          <li>
+
+
+
+          </li>
+          <li class="footer-li">
+            <svg class="footer-svg" width="20" height="20" viewBox="0 0 20 20" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_68394_166)">
+                <path
+                  d="M20 3.79875C19.2562 4.125 18.4637 4.34125 17.6375 4.44625C18.4875 3.93875 19.1363 3.14125 19.4413 2.18C18.6488 2.6525 17.7737 2.98625 16.8412 3.1725C16.0887 2.37125 15.0162 1.875 13.8462 1.875C11.5762 1.875 9.74875 3.7175 9.74875 5.97625C9.74875 6.30125 9.77625 6.61375 9.84375 6.91125C6.435 6.745 3.41875 5.11125 1.3925 2.6225C1.03875 3.23625 0.83125 3.93875 0.83125 4.695C0.83125 6.115 1.5625 7.37375 2.6525 8.1025C1.99375 8.09 1.3475 7.89875 0.8 7.5975C0.8 7.61 0.8 7.62625 0.8 7.6425C0.8 9.635 2.22125 11.29 4.085 11.6712C3.75125 11.7625 3.3875 11.8062 3.01 11.8062C2.7475 11.8062 2.4825 11.7912 2.23375 11.7362C2.765 13.36 4.2725 14.5537 6.065 14.5925C4.67 15.6837 2.89875 16.3412 0.98125 16.3412C0.645 16.3412 0.3225 16.3262 0 16.285C1.81625 17.4562 3.96875 18.125 6.29 18.125C13.835 18.125 17.96 11.875 17.96 6.4575C17.96 6.27625 17.9537 6.10125 17.945 5.9275C18.7587 5.35 19.4425 4.62875 20 3.79875Z"
+                  fill="#AFB1B8" />
+              </g>
+              <defs>
+                <clipPath id="clip0_68394_166">
+                  <rect width="20" height="20" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+
+          </li>
+          <li class="footer-li">
+            <svg class="footer-svg" width="11" height="20" viewBox="0 0 11 20" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M8.33082 3.32083H10.1567V0.140833C9.84166 0.0975 8.75832 0 7.49666 0C4.86416 0 3.06082 1.65583 3.06082 4.69917V7.5H0.155823V11.055H3.06082V20H6.62249V11.0558H9.40999L9.85249 7.50083H6.62166V5.05167C6.62249 4.02417 6.89916 3.32083 8.33082 3.32083Z"
+                fill="#AFB1B8" />
+            </svg>
+
+          </li>
+          <li class="footer-li">
+            <svg class="footer-svg" width="20" height="20" viewBox="0 0 20 20" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_68394_156)">
+                <path
+                  d="M19.995 20.0001V19.9993H20V12.6643C20 9.07593 19.2275 6.31177 15.0325 6.31177C13.0158 6.31177 11.6625 7.41843 11.11 8.4676H11.0517V6.64677H7.07416V19.9993H11.2158V13.3876C11.2158 11.6468 11.5458 9.96343 13.7017 9.96343C15.8258 9.96343 15.8575 11.9501 15.8575 13.4993V20.0001H19.995Z"
+                  fill="#AFB1B8" />
+                <path d="M0.329987 6.64746H4.47665V20H0.329987V6.64746Z" fill="#AFB1B8" />
+                <path
+                  d="M2.40167 0C1.07583 0 0 1.07583 0 2.40167C0 3.7275 1.07583 4.82583 2.40167 4.82583C3.7275 4.82583 4.80333 3.7275 4.80333 2.40167C4.8025 1.07583 3.72667 0 2.40167 0V0Z"
+                  fill="#AFB1B8" />
+              </g>
+              <defs>
+                <clipPath id="clip0_68394_156">
+                  <rect width="20" height="20" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+
+          </li>
+        </ul>
+      </div>
+    </div>
+   
+    <div class="footer-div">
+    
+      <p class="footer-p">Підпишіться на розсилку</p>
+    
+     
+      <form class="footer-from">
+        <label>
+  
+          <input class="footer-comit" type="email" placeholder="E-mail">
+        </label>
+     
+      <button class="div-button" type="submit">Підписатися
+        <svg class="comit-svg">
+          <use href="./imeges/icon send.svg">
+
+          </use>
+        </svg>
+      </button>
+    </form>
+    </div > 
+
+
+  </footer> 
+
+
+
+  
+  <div class="backdrop is-hidden" data-backdrop>
+    <div class="modal">
+      <button class="modal-close" data-close-modal><svg width="11" height="11" viewBox="0 0 11 11" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M11 1.10786L9.89214 0L5.5 4.39214L1.10786 0L0 1.10786L4.39214 5.5L0 9.89214L1.10786 11L5.5 6.60786L9.89214 11L11 9.89214L6.60786 5.5L11 1.10786Z"
+            fill="black" />
+        </svg>
+      </button>
+      <h2 class="modal-hero">
+        Залиште свої дані, ми Вам зателефонуємо
+      </h2>
+      <ul class="modal-list">
+
+        <li class="modal-label">
+          <svg class="modal-svg" width="12" height="12" viewBox="0 0 12 12" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M6 6C7.6575 6 9 4.6575 9 3C9 1.3425 7.6575 0 6 0C4.3425 0 3 1.3425 3 3C3 4.6575 4.3425 6 6 6ZM6 7.5C3.9975 7.5 0 8.505 0 10.5V11.25C0 11.6625 0.3375 12 0.75 12H11.25C11.6625 12 12 11.6625 12 11.25V10.5C12 8.505 8.0025 7.5 6 7.5Z"
+              fill="#212121" />
+          </svg>
+          <p>Ім'я</p>
+          <form>
+            <label>
+
+              <input class="modal-input" type="email" placeholder="">
+
+
+
+            </label>
+          </form>
+        </li>
+        <li class="modal-label">
+          <svg class="modal-svg" width="14" height="14" viewBox="0 0 14 14" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M11.996 9.12268L10.1579 8.91281C9.71644 8.86216 9.28224 9.01413 8.97105 9.32531L7.63948 10.6569C5.59147 9.61479 3.91254 7.94308 2.87044 5.88782L4.20925 4.54901C4.52043 4.23782 4.6724 3.80361 4.62174 3.36217L4.41188 1.53849C4.32504 0.807567 3.70991 0.257568 2.97176 0.257568H1.71979C0.902035 0.257568 0.221776 0.93783 0.272434 1.75559C0.655984 7.93584 5.59871 12.8714 11.7717 13.2549C12.5894 13.3056 13.2697 12.6253 13.2697 11.8075V10.5556C13.2769 9.82465 12.7269 9.20952 11.996 9.12268Z"
+              fill="#212121" />
+          </svg>
+          <p> Телефон</p>
+          <form>
+            <label>
+
+              <input class="modal-input" type="email" placeholder="">
+            </label>
+
+
+          </form>
+        </li>
+        <li class="modal-label">
+          <svg class="modal-svg" width="16" height="12" viewBox="0 0 16 12" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M14 0H2C1.175 0 0.5075 0.675 0.5075 1.5L0.5 10.5C0.5 11.325 1.175 12 2 12H14C14.825 12 15.5 11.325 15.5 10.5V1.5C15.5 0.675 14.825 0 14 0ZM13.7 3.1875L8.3975 6.5025C8.1575 6.6525 7.8425 6.6525 7.6025 6.5025L2.3 3.1875C2.1125 3.0675 2 2.865 2 2.6475C2 2.145 2.5475 1.845 2.975 2.1075L8 5.25L13.025 2.1075C13.4525 1.845 14 2.145 14 2.6475C14 2.865 13.8875 3.0675 13.7 3.1875Z"
+              fill="#212121" />
+          </svg>
+          <p> Пошта</p>
+          <form>
+            <label>
+
+              <input class="modal-input" type="email" placeholder="">
+
+
+            </label>
+          </form>
+        </li>
+        <li class="modal-label">
+          <p> Коментарі</p>
+          <form>
+            <label>
+
+              <input class="modal-comit" type="email" placeholder="Введите текст">
+            </label>
+          </form>
+        </li>
+      </ul>
+      <div class="modal-checkbox">
+        <input type="checkbox">
+
+
+        <p class="modal-text">Погоджуюсь з розсилкою і приймаю <span class="modal-color">Умови договору</span></p>
+
+      </div>
+      <button class="modal-button" type="submit">Надіслати</button>
+
+
+    </div>
+   
+  </div>
+
+  
+
+<div data-backdropp class="mobal-modal">
+
+<svg>
+  <use class="header__icon-cross" data-close-modall href="./imeges/sprite.svg#cross"></use>
+</svg>
+
+
+
+
+
+
+
+</div>
+
+ 
+  <script>
+    const refs = {
+      openModalBtn: document.querySelector('[data-open-modal]'),
+      closeModalBtn: document.querySelector('[data-close-modal]'),
+      backdrop: document.querySelector('[data-backdrop]'),
+    };
+
+    refs.openModalBtn.addEventListener('click', toggleModal);
+    refs.closeModalBtn.addEventListener('click', toggleModal);
+
+    refs.backdrop.addEventListener('click', logBackdropClick);
+
+    function toggleModal() {
+      refs.backdrop.classList.toggle('is-hidden');
+    }
+
+    function logBackdropClick() {
+      console.log('Це клік в бекдроп');
+    }
+  </script>
+  
+
+</body>
+
+
+</html>
